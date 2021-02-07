@@ -1,0 +1,96 @@
+{
+  "id": "b77afae70fb6e351",
+  "slug": "unfolded-maps",
+  "trashed": false,
+  "likes": 0,
+  "publish_level": "public",
+  "forks": 0,
+  "fork_of": null,
+  "update_time": "2021-01-13T17:33:04.474Z",
+  "publish_time": "2021-01-13T01:38:21.129Z",
+  "publish_version": 126,
+  "thumbnail": "bb9128938b2b332b2aee4e41917b011244cd1f92c7ffb194964f83ffbb6fdc93",
+  "roles": [],
+  "sharing": null,
+  "owner": {
+    "id": "17b72db66175b428",
+    "github_login": "RandomFractals",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/656833?v=4",
+    "login": "randomfractals",
+    "name": "Taras Novak",
+    "bio": "I map and graph data",
+    "home_url": "https://www.linkedin.com/in/tarasnovak",
+    "type": "individual"
+  },
+  "creator": {
+    "id": "17b72db66175b428",
+    "github_login": "RandomFractals",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/656833?v=4",
+    "login": "randomfractals",
+    "name": "Taras Novak",
+    "bio": "I map and graph data",
+    "home_url": "https://www.linkedin.com/in/tarasnovak"
+  },
+  "collections": [
+    {
+      "id": "d11d6c47274b0884",
+      "type": "public",
+      "slug": "unfolded",
+      "title": "Unfolded",
+      "description": "Unfolded Maps and Notebooks",
+      "update_time": "2021-01-13T00:38:10.499Z",
+      "pinned": false,
+      "ordered": true,
+      "custom_thumbnail": null,
+      "thumbnail": "eb1d55ddedfab8e883d33b14b64a9dbf06b12a6b0c03f378ab2fbf2fa7206dcb",
+      "listing_count": 3,
+      "document_count": 3,
+      "collection_count": 0,
+      "parent_collection_count": 0,
+      "owner": {
+        "id": "17b72db66175b428",
+        "github_login": "RandomFractals",
+        "avatar_url": "https://avatars1.githubusercontent.com/u/656833?v=4",
+        "login": "randomfractals",
+        "name": "Taras Novak",
+        "bio": "I map and graph data",
+        "home_url": "https://www.linkedin.com/in/tarasnovak",
+        "type": "individual"
+      }
+    }
+  ],
+  "files": [],
+  "comments": [],
+  "commenting_lock": null,
+  "version": 126,
+  "title": "Unfolded Maps",
+  "license": null,
+  "copyright": "",
+  "nodes": [
+    {
+      "id": 0,
+      "value": "md`# Unfolded Maps\n\nSample maps from [Unfolded Studio](https://studio.unfolded.ai/home)\n\n${previews(maps.items)}`",
+      "pinned": false
+    },
+    {
+      "id": 5,
+      "value": "maps = ({\n  \"items\": [\n    {\n      \"id\": \"70a7a095-1864-45c1-8530-b1767945d433\",\n      \"name\": \"The Lego New York\",\n      \"description\": \"A map made using GeoTIFF raster data from SRTM DEM, hexified by unfolded's data pipeline to ~130m diameter H3 hexagons with kring smoothing.\",\n      \"datasets\": [\n        {\n          \"id\": \"7ee6e40f-4066-4892-977a-8754b96c5630\",\n          \"url\": \"https://cdn.unfolded.ai/maps/30504078-cc24-454b-bcc7-a9cf7b0d21b7/published/70a7a095-1864-45c1-8530-b1767945d433/dataset-7ee6e40f-4066-4892-977a-8754b96c5630.json\"\n        }\n      ],\n      \"studioState\": {\n        \"url\": \"https://cdn.unfolded.ai/maps/30504078-cc24-454b-bcc7-a9cf7b0d21b7/published/70a7a095-1864-45c1-8530-b1767945d433/studio-state.json\"\n      },\n      \"previewPath\": \"https://cdn.unfolded.ai/maps/30504078-cc24-454b-bcc7-a9cf7b0d21b7/published/70a7a095-1864-45c1-8530-b1767945d433/preview.png\",\n      \"numberOfViews\": 108,\n      \"ownerId\": \"00000000-a83a-49f8-aaaa-000000000000\",\n      \"sourceMapId\": \"30504078-cc24-454b-bcc7-a9cf7b0d21b7\",\n      \"createdAt\": \"2020-11-02T22:17:18.000Z\",\n      \"updatedAt\": \"2021-01-13T00:32:39.000Z\"\n    },\n    {\n      \"id\": \"c344c980-1eac-4f50-96fc-a3b335b06790\",\n      \"name\": \"Every Thousand People in the United States\",\n      \"description\": \"Draw a population map that reflects where people actually are has always been a challenge. Traditional population data comes from census blocks of arbitrary boundaries. At unfolded we used Microsoft's building footprint data as our starting point. Using H3’s geo transform power, we projected Census block level population data (ACS) onto the buildings to calculate the probability of population density and demographics for each buildings in united State. We then used hierarchical properties of H3 to distribute the population of every 1000-3000 people to each hexagon.\",\n      \"datasets\": [\n        {\n          \"id\": \"b6dd53cd-cb75-48c3-b74c-dd4b7168f010\",\n          \"url\": \"https://cdn.unfolded.ai/maps/859ee1e4-864f-4dc2-83a8-c891089a0f86/published/c344c980-1eac-4f50-96fc-a3b335b06790/dataset-b6dd53cd-cb75-48c3-b74c-dd4b7168f010.json\"\n        }\n      ],\n      \"studioState\": {\n        \"url\": \"https://cdn.unfolded.ai/maps/859ee1e4-864f-4dc2-83a8-c891089a0f86/published/c344c980-1eac-4f50-96fc-a3b335b06790/studio-state.json\"\n      },\n      \"previewPath\": \"https://cdn.unfolded.ai/maps/859ee1e4-864f-4dc2-83a8-c891089a0f86/published/c344c980-1eac-4f50-96fc-a3b335b06790/preview.png\",\n      \"numberOfViews\": 89,\n      \"ownerId\": \"00000000-a83a-49f8-aaaa-000000000000\",\n      \"sourceMapId\": \"859ee1e4-864f-4dc2-83a8-c891089a0f86\",\n      \"createdAt\": \"2020-11-02T22:53:13.000Z\",\n      \"updatedAt\": \"2021-01-13T00:24:27.000Z\"\n    },\n    {\n      \"id\": \"eb6faefc-4670-4cb2-bd5f-77c7ec43b94c\",\n      \"name\": \"Farmlands in H3 Vector Tiles\",\n      \"description\": \"An interactive map of 300 million acres of US farmland overlaying crop health and farming practices from the Indigo Atlas Technology Platform.\\\\n\\\\n Unfolded’s hexagonal tiling technology and GPU rendering made it possible to bring these eight million individual fields to life right in your browser.\",\n      \"datasets\": [],\n      \"studioState\": {\n        \"url\": \"https://cdn.unfolded.ai/maps/9c0dd217-7e2b-4215-8a04-dfbf16b85914/published/eb6faefc-4670-4cb2-bd5f-77c7ec43b94c/studio-state.json\"\n      },\n      \"previewPath\": \"https://cdn.unfolded.ai/maps/9c0dd217-7e2b-4215-8a04-dfbf16b85914/published/eb6faefc-4670-4cb2-bd5f-77c7ec43b94c/preview.png\",\n      \"numberOfViews\": 103,\n      \"ownerId\": \"00000000-a83a-49f8-aaaa-000000000000\",\n      \"sourceMapId\": \"9c0dd217-7e2b-4215-8a04-dfbf16b85914\",\n      \"createdAt\": \"2020-11-17T17:48:25.000Z\",\n      \"updatedAt\": \"2021-01-13T00:33:08.000Z\"\n    },\n    {\n      \"id\": \"ecfb3cf1-0fc7-4154-93b9-20c5d07c9320\",\n      \"name\": \"Human Modification of the Earth\",\n      \"description\": \"The level of human modification of the earth at 1 square-kilometer resolution. \\nUsing the global Human Modification dataset provided by Google Earth Engine. Color red correlates with higher intensity of modification.\",\n      \"datasets\": [\n        {\n          \"id\": \"0592d191-a2e6-4bae-874d-b88ec4f1336c\",\n          \"url\": \"https://cdn.unfolded.ai/maps/a21a7817-070d-4f76-9dca-4408458276ad/published/ecfb3cf1-0fc7-4154-93b9-20c5d07c9320/dataset-0592d191-a2e6-4bae-874d-b88ec4f1336c.json\",\n          \"name\": \"human_modify.csv\",\n          \"type\": \"managed\"\n        }\n      ],\n      \"studioState\": {\n        \"url\": \"https://cdn.unfolded.ai/maps/a21a7817-070d-4f76-9dca-4408458276ad/published/ecfb3cf1-0fc7-4154-93b9-20c5d07c9320/studio-state.json\"\n      },\n      \"previewPath\": \"https://cdn.unfolded.ai/maps/a21a7817-070d-4f76-9dca-4408458276ad/published/ecfb3cf1-0fc7-4154-93b9-20c5d07c9320/preview.png\",\n      \"numberOfViews\": 54,\n      \"ownerId\": \"00000000-a83a-49f8-aaaa-000000000000\",\n      \"sourceMapId\": \"a21a7817-070d-4f76-9dca-4408458276ad\",\n      \"createdAt\": \"2020-11-17T18:11:19.000Z\",\n      \"updatedAt\": \"2021-01-13T00:18:57.000Z\"\n    },\n    {\n      \"id\": \"76aca1e0-896c-4e36-a2d2-f817ba44f3a5\",\n      \"name\": \"Medium Household Income in the US\",\n      \"description\": \"A US county map by medium household income based on 2017 Labor Force Information. This map is made using the join function to link county geometries and the survey results. \",\n      \"datasets\": [\n        {\n          \"id\": \"06d80201-1d6a-4386-8cd0-69f30b4c74ad\",\n          \"url\": \"https://cdn.unfolded.ai/maps/b80069c4-c7d9-46eb-9bf3-b7118867ddba/published/76aca1e0-896c-4e36-a2d2-f817ba44f3a5/dataset-06d80201-1d6a-4386-8cd0-69f30b4c74ad.json\",\n          \"name\": \"county_income_estimates.csv\",\n          \"type\": \"managed\"\n        },\n        {\n          \"id\": \"6374b375-e238-40d6-91ad-41ad6710d54e\",\n          \"url\": \"https://cdn.unfolded.ai/maps/b80069c4-c7d9-46eb-9bf3-b7118867ddba/published/76aca1e0-896c-4e36-a2d2-f817ba44f3a5/dataset-6374b375-e238-40d6-91ad-41ad6710d54e.json\",\n          \"name\": \"Us Counties.json\",\n          \"type\": \"managed\"\n        }\n      ],\n      \"studioState\": {\n        \"url\": \"https://cdn.unfolded.ai/maps/b80069c4-c7d9-46eb-9bf3-b7118867ddba/published/76aca1e0-896c-4e36-a2d2-f817ba44f3a5/studio-state.json\"\n      },\n      \"previewPath\": \"https://cdn.unfolded.ai/maps/b80069c4-c7d9-46eb-9bf3-b7118867ddba/published/76aca1e0-896c-4e36-a2d2-f817ba44f3a5/preview.png\",\n      \"numberOfViews\": 119,\n      \"ownerId\": \"00000000-a83a-49f8-aaaa-000000000000\",\n      \"sourceMapId\": \"b80069c4-c7d9-46eb-9bf3-b7118867ddba\",\n      \"createdAt\": \"2020-11-17T18:03:02.000Z\",\n      \"updatedAt\": \"2021-01-13T00:11:51.000Z\"\n    },\n    {\n      \"id\": \"0954dd97-7d03-48c1-9d58-a0ab42b0ddf3\",\n      \"name\": \"Refugee Settlements\",\n      \"description\": \"Refugee settlements population by country of origin and asylum, between 1960 - 2019\",\n      \"datasets\": [\n        {\n          \"id\": \"c0ddbe47-8b7f-4d14-8404-8369fc7b5eb7\",\n          \"url\": \"https://cdn.unfolded.ai/maps/e91ecef8-68ee-493d-b4e9-1e31274ebba0/published/0954dd97-7d03-48c1-9d58-a0ab42b0ddf3/dataset-c0ddbe47-8b7f-4d14-8404-8369fc7b5eb7.json\"\n        }\n      ],\n      \"studioState\": {\n        \"url\": \"https://cdn.unfolded.ai/maps/e91ecef8-68ee-493d-b4e9-1e31274ebba0/published/0954dd97-7d03-48c1-9d58-a0ab42b0ddf3/studio-state.json\"\n      },\n      \"previewPath\": \"https://cdn.unfolded.ai/maps/e91ecef8-68ee-493d-b4e9-1e31274ebba0/published/0954dd97-7d03-48c1-9d58-a0ab42b0ddf3/preview.png\",\n      \"numberOfViews\": 35,\n      \"ownerId\": \"00000000-a83a-49f8-aaaa-000000000000\",\n      \"sourceMapId\": \"e91ecef8-68ee-493d-b4e9-1e31274ebba0\",\n      \"createdAt\": \"2020-11-16T18:39:11.000Z\",\n      \"updatedAt\": \"2021-01-13T00:31:21.000Z\"\n    },\n    {\n      \"id\": \"e3eb7ff4-045b-4f12-ba72-f687e428f2e5\",\n      \"name\": \"World Flights\",\n      \"description\": \"Animating two hours of flight path data collected by OpenSky Network using the trip layer. \",\n      \"datasets\": [\n        {\n          \"id\": \"cbe602c1-699c-4390-8fd3-3b198f13607a\",\n          \"url\": \"https://cdn.unfolded.ai/maps/ecca7b08-4d00-47e5-a3c9-44a146311531/published/e3eb7ff4-045b-4f12-ba72-f687e428f2e5/dataset-cbe602c1-699c-4390-8fd3-3b198f13607a.json\",\n          \"name\": \"world_flights.json\",\n          \"type\": \"managed\"\n        }\n      ],\n      \"studioState\": {\n        \"url\": \"https://cdn.unfolded.ai/maps/ecca7b08-4d00-47e5-a3c9-44a146311531/published/e3eb7ff4-045b-4f12-ba72-f687e428f2e5/studio-state.json\"\n      },\n      \"previewPath\": \"https://cdn.unfolded.ai/maps/ecca7b08-4d00-47e5-a3c9-44a146311531/published/e3eb7ff4-045b-4f12-ba72-f687e428f2e5/preview.png\",\n      \"numberOfViews\": 72,\n      \"ownerId\": \"00000000-a83a-49f8-aaaa-000000000000\",\n      \"sourceMapId\": \"ecca7b08-4d00-47e5-a3c9-44a146311531\",\n      \"createdAt\": \"2020-11-17T18:42:22.000Z\",\n      \"updatedAt\": \"2021-01-13T00:13:03.000Z\"\n    },\n    {\n      \"id\": \"cc2f7caa-a5e8-480a-a0ad-72d80f4d5d9c\",\n      \"name\": \"SF Building Footprints\",\n      \"description\": \"Building footprints in San Francisco, colored by ground elevation.\",\n      \"datasets\": [\n        {\n          \"id\": \"d262dd85-f932-418a-a7e7-a9aa36edaccf\",\n          \"url\": \"https://cdn.unfolded.ai/maps/f72cdbd9-51dd-4517-9b2f-a08bab810afc/published/cc2f7caa-a5e8-480a-a0ad-72d80f4d5d9c/dataset-d262dd85-f932-418a-a7e7-a9aa36edaccf.json\",\n          \"name\": \"SF Building Footprints.csv\",\n          \"type\": \"managed\"\n        }\n      ],\n      \"studioState\": {\n        \"url\": \"https://cdn.unfolded.ai/maps/f72cdbd9-51dd-4517-9b2f-a08bab810afc/published/cc2f7caa-a5e8-480a-a0ad-72d80f4d5d9c/studio-state.json\"\n      },\n      \"previewPath\": \"https://cdn.unfolded.ai/maps/f72cdbd9-51dd-4517-9b2f-a08bab810afc/published/cc2f7caa-a5e8-480a-a0ad-72d80f4d5d9c/preview.png\",\n      \"numberOfViews\": 0,\n      \"ownerId\": \"00000000-a83a-49f8-aaaa-000000000000\",\n      \"sourceMapId\": \"f72cdbd9-51dd-4517-9b2f-a08bab810afc\",\n      \"createdAt\": \"2021-01-13T00:32:59.000Z\",\n      \"updatedAt\": \"2021-01-13T00:32:59.000Z\"\n    }\n  ]\n})",
+      "pinned": false
+    },
+    {
+      "id": 35,
+      "value": "function previews(maps) {\n  return html`<div class=\"map-list\">${maps.map(preview)}</div>`;\n}",
+      "pinned": false
+    },
+    {
+      "id": 32,
+      "value": "function preview({sourceMapId, name, description, previewPath}) {\n  return html`<a class=\"map-card\" href=\"https://studio.unfolded.ai/public/${encodeURI(sourceMapId)}\" target=\"_blank\" title=\"${name} - ${description}\">\n  <div class=\"map-thumbnail\" style=\"background-image: url(${previewPath});\"></div>\n  <div class=\"map-title\">${name}</div>\n  <div class=\"map-description\">${description}</div>\n</a>`;\n}",
+      "pinned": false
+    },
+    {
+      "id": 65,
+      "value": "mapStyles = html `\n<style>\n.map-list {\n  display: grid; \n  grid-gap: 20px; \n  grid-template-columns: repeat(auto-fill, minmax(240px, 5fr));\n}\n.map-card {\n  border: solid 1px #e8e8e8;\n  border-radius: 4px; \n  display: inline-flex; \n  flex-direction: column; \n  align-items: center; \n  font-size: 18px; \n  color: #1b1e23; \n  width: 100%;\n}\n.map-thumbnail {\n  border: solid 1px #e8e8e8;\n  box-sizing: border-box; \n  width: 100%; \n  padding-top: 62.5%; \n  background-size: cover;\n}\n.map-title {\n  width: 95%; \n  white-space: nowrap; \n  text-overflow: ellipsis; \n  overflow: hidden; \n  padding: 4px;\n  padding-bottom: 0px;\n}\n.map-description {\n  color: #696969;\n  font-size: 15px;\n  overflow: hidden;\n  text-overflow: clip;\n  white-space: normal;\n  width: 95%;\n  height: 3em;\n  padding: 4px;\n  margin-bottom: 10px;\n}\n</style>\n`",
+      "pinned": false
+    }
+  ]
+}
