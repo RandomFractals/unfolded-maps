@@ -1,0 +1,106 @@
+{
+  "id": "3c2b05bd9a1b89e8",
+  "slug": "unfolded-map-sdk",
+  "trashed": false,
+  "likes": 2,
+  "publish_level": "public",
+  "forks": 1,
+  "fork_of": null,
+  "update_time": "2021-02-07T13:17:19.752Z",
+  "publish_time": "2021-01-12T18:16:43.062Z",
+  "publish_version": 78,
+  "thumbnail": "076dae0ee50571e5ba0aa258e56669582bd08373d8e1c10a0b31563bacb00866",
+  "roles": [],
+  "sharing": null,
+  "owner": {
+    "id": "17b72db66175b428",
+    "github_login": "RandomFractals",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/656833?v=4",
+    "login": "randomfractals",
+    "name": "Taras Novak",
+    "bio": "I map and graph data",
+    "home_url": "https://www.linkedin.com/in/tarasnovak",
+    "type": "individual"
+  },
+  "creator": {
+    "id": "17b72db66175b428",
+    "github_login": "RandomFractals",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/656833?v=4",
+    "login": "randomfractals",
+    "name": "Taras Novak",
+    "bio": "I map and graph data",
+    "home_url": "https://www.linkedin.com/in/tarasnovak"
+  },
+  "collections": [
+    {
+      "id": "d11d6c47274b0884",
+      "type": "public",
+      "slug": "unfolded",
+      "title": "Unfolded",
+      "description": "Unfolded Maps and Notebooks",
+      "update_time": "2021-01-13T00:38:10.499Z",
+      "pinned": false,
+      "ordered": true,
+      "custom_thumbnail": null,
+      "thumbnail": "eb1d55ddedfab8e883d33b14b64a9dbf06b12a6b0c03f378ab2fbf2fa7206dcb",
+      "listing_count": 3,
+      "document_count": 3,
+      "collection_count": 0,
+      "parent_collection_count": 0,
+      "owner": {
+        "id": "17b72db66175b428",
+        "github_login": "RandomFractals",
+        "avatar_url": "https://avatars1.githubusercontent.com/u/656833?v=4",
+        "login": "randomfractals",
+        "name": "Taras Novak",
+        "bio": "I map and graph data",
+        "home_url": "https://www.linkedin.com/in/tarasnovak",
+        "type": "individual"
+      }
+    }
+  ],
+  "files": [],
+  "comments": [],
+  "commenting_lock": null,
+  "version": 78,
+  "title": "Unfolded Map SDK",
+  "license": null,
+  "copyright": "",
+  "nodes": [
+    {
+      "id": 0,
+      "value": "md`# Unfolded Map SDK\n\nSimple example using [Unfolded Map SDK](https://docs.unfolded.ai/map-sdk)\n`",
+      "pinned": false
+    },
+    {
+      "id": 23,
+      "value": "md`### 1. Import Unfolded Map SDK Module`",
+      "pinned": false
+    },
+    {
+      "id": 4,
+      "value": "mapSDK = import('https://unpkg.com/@unfolded/map-sdk@0.1.1/dist/index.js?module')",
+      "pinned": true
+    },
+    {
+      "id": 28,
+      "value": "md`### 2. Create and Display Unfolded Map IFrame`",
+      "pinned": false
+    },
+    {
+      "id": 6,
+      "value": "viewof map = {\n  let iframe;  \n  const map = mapSDK.createMap({\n    mapUUID: '31b96f3a-92a0-4146-b6c2-c1c48fb128e5',\n    embed: false,\n    width: width,\n    height: 600,\n    onLoad: () => {\n      iframe.value = map;\n      iframe.dispatchEvent(new CustomEvent(\"input\"));\n    }\n  });\n  iframe = map.iframe;\n  yield iframe;\n}",
+      "pinned": true
+    },
+    {
+      "id": 39,
+      "value": "md`### 3. Set Map View State`",
+      "pinned": false
+    },
+    {
+      "id": 36,
+      "value": "mapSDK.setViewState(map, {\n  longitude: -96.4247,\n  latitude: 31.51073,\n  zoom: 1\n});",
+      "pinned": true
+    }
+  ]
+}
