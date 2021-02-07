@@ -1,0 +1,91 @@
+{
+  "id": "277eacf137ed23c3",
+  "slug": "hello-unfolded",
+  "trashed": false,
+  "likes": 0,
+  "publish_level": "public",
+  "forks": 0,
+  "fork_of": null,
+  "update_time": "2021-01-12T17:24:23.301Z",
+  "publish_time": "2021-01-12T17:08:25.860Z",
+  "publish_version": 63,
+  "thumbnail": "eb1d55ddedfab8e883d33b14b64a9dbf06b12a6b0c03f378ab2fbf2fa7206dcb",
+  "roles": [],
+  "sharing": null,
+  "owner": {
+    "id": "17b72db66175b428",
+    "github_login": "RandomFractals",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/656833?v=4",
+    "login": "randomfractals",
+    "name": "Taras Novak",
+    "bio": "I map and graph data",
+    "home_url": "https://www.linkedin.com/in/tarasnovak",
+    "type": "individual"
+  },
+  "creator": {
+    "id": "17b72db66175b428",
+    "github_login": "RandomFractals",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/656833?v=4",
+    "login": "randomfractals",
+    "name": "Taras Novak",
+    "bio": "I map and graph data",
+    "home_url": "https://www.linkedin.com/in/tarasnovak"
+  },
+  "collections": [
+    {
+      "id": "d11d6c47274b0884",
+      "type": "public",
+      "slug": "unfolded",
+      "title": "Unfolded",
+      "description": "Unfolded Maps and Notebooks",
+      "update_time": "2021-01-13T00:38:10.499Z",
+      "pinned": false,
+      "ordered": true,
+      "custom_thumbnail": null,
+      "thumbnail": "eb1d55ddedfab8e883d33b14b64a9dbf06b12a6b0c03f378ab2fbf2fa7206dcb",
+      "listing_count": 3,
+      "document_count": 3,
+      "collection_count": 0,
+      "parent_collection_count": 0,
+      "owner": {
+        "id": "17b72db66175b428",
+        "github_login": "RandomFractals",
+        "avatar_url": "https://avatars1.githubusercontent.com/u/656833?v=4",
+        "login": "randomfractals",
+        "name": "Taras Novak",
+        "bio": "I map and graph data",
+        "home_url": "https://www.linkedin.com/in/tarasnovak",
+        "type": "individual"
+      }
+    }
+  ],
+  "files": [],
+  "comments": [],
+  "commenting_lock": null,
+  "version": 63,
+  "title": "Hello, Unfolded!",
+  "license": null,
+  "copyright": "",
+  "nodes": [
+    {
+      "id": 0,
+      "value": "md`# Hello, Unfolded!`",
+      "pinned": false
+    },
+    {
+      "id": 38,
+      "value": "fullscreen = {\n  const button = html`<button>Fullscreen`;\n  button.onclick = () =>\n    button.parentElement.nextElementSibling.requestFullscreen();\n  return button;\n}",
+      "pinned": false
+    },
+    {
+      "id": 41,
+      "value": "html`<iframe id=\"mapFrame\" height=\"600px\" width=\"${width}\" src=\"${mapSDK.getMapUrl('31b96f3a-92a0-4146-b6c2-c1c48fb128e5')}\" />`",
+      "pinned": true
+    },
+    {
+      "id": 52,
+      "value": "mapSDK = import('https://unpkg.com/@unfolded/map-sdk@0.1.1/dist/index.js?module')",
+      "pinned": true
+    }
+  ]
+}
