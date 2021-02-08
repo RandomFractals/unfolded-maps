@@ -8,6 +8,7 @@ Open source repository of [Unfolded Studio](https://studio.unfolded.ai) sample m
 - [Hello, Unfolded!](https://observablehq.com/@randomfractals/hello-unfolded)
 - [Unfolded Map SDK](https://observablehq.com/@randomfractals/unfolded-map-sdk)
 - [Unfolded Maps](https://observablehq.com/@randomfractals/unfolded-maps)
+- [Unfolded Map React](https://observablehq.com/@randomfractals/unfolded-map-react)
 
 Unfolded Map SDK JS Notebook 📓 loaded in VSCode [Observable JS Notebook Inspector 🕵️](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.js-notebook-inspector) View:
 

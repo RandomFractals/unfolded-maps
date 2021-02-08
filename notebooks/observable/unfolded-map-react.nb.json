@@ -1,0 +1,106 @@
+{
+  "id": "7f5d0a207d20e686",
+  "slug": "unfolded-map-react",
+  "trashed": false,
+  "likes": 0,
+  "publish_level": "public",
+  "forks": 0,
+  "fork_of": null,
+  "update_time": "2021-02-07T18:52:12.269Z",
+  "publish_time": "2021-02-07T18:52:12.269Z",
+  "publish_version": 107,
+  "thumbnail": "b102ffdb1dff6e74e15a0a84870b9b803ddd2271b3a8cfc370ffe8c341647270",
+  "roles": [],
+  "sharing": null,
+  "owner": {
+    "id": "17b72db66175b428",
+    "github_login": "RandomFractals",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/656833?v=4",
+    "login": "randomfractals",
+    "name": "Taras Novak",
+    "bio": "I map and graph data",
+    "home_url": "https://www.linkedin.com/in/tarasnovak",
+    "type": "individual"
+  },
+  "creator": {
+    "id": "17b72db66175b428",
+    "github_login": "RandomFractals",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/656833?v=4",
+    "login": "randomfractals",
+    "name": "Taras Novak",
+    "bio": "I map and graph data",
+    "home_url": "https://www.linkedin.com/in/tarasnovak"
+  },
+  "collections": [
+    {
+      "id": "d11d6c47274b0884",
+      "type": "public",
+      "slug": "unfolded",
+      "title": "Unfolded",
+      "description": "Unfolded Maps and Notebooks",
+      "update_time": "2021-01-13T00:38:10.499Z",
+      "pinned": false,
+      "ordered": true,
+      "custom_thumbnail": null,
+      "thumbnail": "c0e84bfe6d165e236427953dc1024869b2137f6ab77888e3d59caf45caaf9c4c",
+      "listing_count": 4,
+      "document_count": 4,
+      "collection_count": 0,
+      "parent_collection_count": 0,
+      "owner": {
+        "id": "17b72db66175b428",
+        "github_login": "RandomFractals",
+        "avatar_url": "https://avatars1.githubusercontent.com/u/656833?v=4",
+        "login": "randomfractals",
+        "name": "Taras Novak",
+        "bio": "I map and graph data",
+        "home_url": "https://www.linkedin.com/in/tarasnovak",
+        "type": "individual"
+      }
+    }
+  ],
+  "files": [],
+  "comments": [],
+  "commenting_lock": null,
+  "version": 107,
+  "title": "Unfolded Map React",
+  "license": null,
+  "copyright": "",
+  "nodes": [
+    {
+      "id": 0,
+      "value": "md`# Unfolded Map React\n\nSimple example of creating [Unfolded Map with React](https://docs.unfolded.ai/map-sdk/examples/use-with-react)`",
+      "pinned": false
+    },
+    {
+      "id": 17,
+      "value": "viewof mapApp = render(({ useSetter }) => {\n  const [value, setValue] = useState(\"\");\n  useSetter(value);\n  return jsx`<${App} />`;\n})",
+      "pinned": true
+    },
+    {
+      "id": 25,
+      "value": "function App() {\n  const [isMapLoaded, setIsMapLoaded] = React.useState(false);\n  const [map, setMap] = React.useState(null);\n  return (jsx`\n    <div className=\"App\">\n      <${UnfoldedMap} setMap={setMap} setIsMapLoaded={setIsMapLoaded} />\n    </div>\n  `);\n}",
+      "pinned": true
+    },
+    {
+      "id": 19,
+      "value": "function UnfoldedMap({setMap, setIsMapLoaded}) {\n  const mapRef = React.useRef(null);\n  React.useEffect(() => {\n    const map = mapSDK.createMap({\n      mapUrl: 'https://studio.unfolded.ai/public/80c800cc-5805-4416-94a5-bd8105cab7f7',\n      appendToDocument: false,\n      embed: true,\n      width: width,\n      height: 600,\n      onLoad: () => {\n        setMap(map);\n        setIsMapLoaded(true);\n      }\n    });\n    mapRef.current.appendChild(map.iframe);\n  }, [setMap, setIsMapLoaded]);\n  return (jsx`\n    <div className=\"unfolded\">\n      <div ref=${mapRef} />\n    </div>\n  `);\n}",
+      "pinned": true
+    },
+    {
+      "id": 29,
+      "value": "md`### Unfolded Map SDK and React Imports`",
+      "pinned": false
+    },
+    {
+      "id": 33,
+      "value": "mapSDK = import('https://unpkg.com/@unfolded/map-sdk@0.1.1/dist/index.js?module')",
+      "pinned": true
+    },
+    {
+      "id": 14,
+      "value": "import {\n  render,\n  component,\n  jsx,\n  memo,\n  forwardRef,\n  React,\n  ReactDOM,\n  createElement,\n  Children,\n  createRef,\n  createContext,\n  lazy,\n  Fragment,\n  StrictMode,\n  Suspense,\n  cloneElement,\n  useCallback,\n  useContext,\n  useEffect,\n  useImperativeHandle,\n  useLayoutEffect,\n  useMemo,\n  useReducer,\n  useRef,\n  useState,\n  useDebugValue,\n  createPortal,\n  __SECRET_SWITCHER\n} from '@j-f1/react-16'",
+      "pinned": false
+    }
+  ]
+}
