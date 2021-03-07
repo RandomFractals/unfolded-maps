@@ -10,3 +10,9 @@ for dataset in datasets:
 
 df = pd.DataFrame([names], columns=ids).T
 print('Unfolded Datasets:', df)
+
+for dataset in datasets:
+  dataInfo = data_sdk.get_dataset_by_id(dataset.id)
+  print('Dataset:')
+  for attr in vars(dataInfo):
+    print("%s = %r" % (attr, getattr(dataInfo, attr)))
