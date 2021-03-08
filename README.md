@@ -21,3 +21,10 @@ Use [unfolded-map-react](https://github.com/RandomFractals/unfolded-map-react) t
 
 ![Unfolded Map 🗺️ React App](https://github.com/RandomFractals/unfolded-map-react/blob/main/docs/images/unfolded-map-react.png?raw=true 
  "Unfolded Map 🗺 React App")
+
+## Jupyter Notebooks 📚
+
+Use [unfolded-data-sdk.ipynb](https://github.com/RandomFractals/unfolded-maps/blob/main/notebooks/jupyter/unfolded-data-sdk.ipynb) to get the list of datasets uploaded to [Unfolded Studio](https://studio.unfolded.ai/home/datasets)
+
+![Unfolded Data SDK Jupyter Notebook](https://github.com/RandomFractals/unfolded-map-react/blob/main/docs/images/unfolded-data-sdk-py-notebook.png?raw=true 
+ "Unfolded Data SDK Jupyter Notebook")
