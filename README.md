@@ -26,5 +26,5 @@ Use [unfolded-map-react](https://github.com/RandomFractals/unfolded-map-react) t
 
 Use [unfolded-data-sdk.ipynb](https://github.com/RandomFractals/unfolded-maps/blob/main/notebooks/jupyter/unfolded-data-sdk.ipynb) to get the list of datasets uploaded to [Unfolded Studio](https://studio.unfolded.ai/home/datasets)
 
-![Unfolded Data SDK Jupyter Notebook](https://github.com/RandomFractals/unfolded-map-react/blob/main/docs/images/unfolded-data-sdk-py-notebook.png?raw=true 
+![Unfolded Data SDK Jupyter Notebook](https://github.com/RandomFractals/unfolded-maps/blob/main/docs/images/unfolded-data-sdk-py-notebook.png?raw=true 
  "Unfolded Data SDK Jupyter Notebook")
