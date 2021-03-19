@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Unfolded Map">
+    <title>Unfolded Map</title>
+    <script src="https://cdn.unfolded.ai/sdk/unfolded-sdk.min.js"></script>
+    <style>
+      html, body {
+        height: 100%;
+        overflow: hidden;
+      }
+      body {
+        font-family: 'Graphik Web';
+        margin: 0px;  
+      }
+      iframe {
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <script type="text/javascript">
+      const map = UnfoldedMapSDK.createMap({
+          mapUrl: 'https://studio.unfolded.ai/public/80c800cc-5805-4416-94a5-bd8105cab7f7/embed',
+          appendToDocument: true,
+          width: window.innerWidth,
+          height: window.innerHeight,
+          onLoad: () => {
+            console.log('UnfoldedMapSDK: map loaded!');
+          }
+        });
+      UnfoldedMapSDK.setViewState(map, {
+        longitude: -74.006058,
+        latitude: 40.712772,
+        zoom: 10
+      });
+      window.addEventListener('resize', () => {
+        if (map) {
+          map.iframe.style.width = `${window.innerWidth}px`;
+          map.iframe.style.height = `${window.innerHeight}px`;
+        }
+      });
+    </script>
+  </body>
+</html>
