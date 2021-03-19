@@ -15,6 +15,10 @@ Unfolded Map SDK JS Notebook 📓 loaded in VSCode [Observable JS Notebook Inspe
 ![Notebook 📓 Inspector 🕵️](https://github.com/RandomFractals/unfolded-maps/blob/main/docs/images/unfolded-map-sdk-nb-view.png?raw=true 
  "JS Notebook 📓 Inspector 🕵️ Unfolded Map SDK View")
 
+## Unfolded Map 🗺️ Html Template 🌐
+
+Use [unfolded-map.html](https://github.com/RandomFractals/unfolded-maps/blob/main/templates/unfolded-map.html) to create standalone Unfolded map web page you can share or add to your web site.
+
 ## Unfolded Map 🗺️ React App
 
 Use [unfolded-map-react](https://github.com/RandomFractals/unfolded-map-react) to create custom unfolded map apps with react.
