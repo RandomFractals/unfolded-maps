@@ -32,3 +32,10 @@ Use [unfolded-data-sdk.ipynb](https://github.com/RandomFractals/unfolded-maps/bl
 
 ![Unfolded Data SDK Jupyter Notebook](https://github.com/RandomFractals/unfolded-maps/blob/main/docs/images/unfolded-data-sdk-py-notebook.png?raw=true 
  "Unfolded Data SDK Jupyter Notebook")
+
+## Unfolded Code Snippets ⇥
+
+Use [unfolded-map-snippets](https://github.com/RandomFractals/unfolded-map-snippets) vscode extension to streamline your custom Unfolded map creations and data integrations.
+
+![Unfolded Snippets](https://github.com/RandomFractals/unfolded-map-snippets/blob/main/docs/images/unfolded-snippets.png?raw=true 
+ "Unfolded Code Snippets")
