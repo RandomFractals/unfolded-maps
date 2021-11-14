@@ -33,12 +33,21 @@ Use [unfolded-data-sdk.ipynb](https://github.com/RandomFractals/unfolded-maps/bl
 ![Unfolded Data SDK Jupyter Notebook](https://github.com/RandomFractals/unfolded-maps/blob/main/docs/images/unfolded-data-sdk-py-notebook.png?raw=true 
  "Unfolded Data SDK Jupyter Notebook")
 
-## Unfolded Code Snippets ⇥
+## Unfolded Map 🗺️ Code Snippets ⇥
 
-Use [unfolded-map-snippets](https://github.com/RandomFractals/unfolded-map-snippets) vscode extension to streamline your custom Unfolded map creations and data integrations.
+Use [unfolded-map-snippets](https://github.com/RandomFractals/unfolded-map-snippets) [VSCode extension](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.unfolded-snippets) to streamline your [Custom Unfolded](https://docs.unfolded.ai/api) Map 🗺️ creations and [Python 🐍 Data](https://docs.unfolded.ai/data-sdk/api/list-datasets) integrations.
 
-![Unfolded Snippets](https://github.com/RandomFractals/unfolded-map-snippets/blob/main/docs/images/unfolded-snippets.png?raw=true 
- "Unfolded Code Snippets")
+### [Unfolded JavaScript Code Snippets](https://github.com/RandomFractals/unfolded-map-snippets/blob/main/README.md#unfolded-javascript-snippets)
+
+![Unfolded JS Snippets](https://raw.githubusercontent.com/RandomFractals/unfolded-map-snippets/main/docs/images/unfolded-map-snippets.png)
+
+### [Unfolded Python 🐍 Code Snippets](https://github.com/RandomFractals/unfolded-map-snippets/blob/main/README.md#unfolded-python-snippets)
+
+![Unfolded Py Snippets](https://raw.githubusercontent.com/RandomFractals/unfolded-map-snippets/main/docs/images/unfolded-map-py-snippets.png)
+
+### [Unfolded Map 🗺️ Html Code Snippets](https://github.com/RandomFractals/unfolded-map-snippets/blob/main/README.md#unfolded-html-snippets)
+
+![Unfolded Map Html Snippets](https://raw.githubusercontent.com/RandomFractals/unfolded-map-snippets/main/docs/images/unfolded-map-html-snippets.png)
 
 ## Unfolded Map 🗺️ Notebook 📓 Renderer
 
