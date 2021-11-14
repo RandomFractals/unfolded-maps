@@ -44,5 +44,5 @@ Use [unfolded-map-snippets](https://github.com/RandomFractals/unfolded-map-snipp
 
 Use [unfolded-map-renderer](https://github.com/RandomFractals/unfolded-map-renderer) extension with [Custom Visual Studio Code Notebooks](https://code.visualstudio.com/blogs/2021/11/08/custom-notebooks) or [Project Jupyter](https://jupyter.org) Notebooks 📚 loaded in VSCode for quick previews of [Geo Datasets](https://github.com/RandomFractals/unfolded-map-renderer/blob/main/README.md#supported-data-formats) from notebook cell ⌗ outputs.
 
-![Unfolded  Map 🗺️ Notebook 📓 Renderer](https://github.com/RandomFractals/unfolded-map-snippets/blob/main/docs/images/unfolded-map-notebook-renderer.png?raw=true 
+![Unfolded  Map 🗺️ Notebook 📓 Renderer](https://github.com/RandomFractals/unfolded-maps/blob/main/docs/images/unfolded-map-notebook-renderer.png?raw=true 
  "Unfolded  Map 🗺️ Notebook 📓 Renderer")
