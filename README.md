@@ -35,7 +35,7 @@ Use [unfolded-data-sdk.ipynb](https://github.com/RandomFractals/unfolded-maps/bl
 
 ## Unfolded Map 🗺️ Code Snippets ⇥
 
-Use [unfolded-map-snippets](https://github.com/RandomFractals/unfolded-map-snippets) [VSCode extension](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.unfolded-snippets) to streamline your [Custom Unfolded](https://docs.unfolded.ai/api) Map 🗺️ creations and [Python 🐍 Data](https://docs.unfolded.ai/data-sdk/api/list-datasets) integrations.
+Use [unfolded-map-snippets](https://github.com/RandomFractals/unfolded-map-snippets) VSCode extension to streamline your [Custom Unfolded](https://docs.unfolded.ai/api) Map 🗺️ creations and [Python 🐍 Data](https://docs.unfolded.ai/data-sdk/api/list-datasets) integrations.
 
 ### [Unfolded JavaScript Code Snippets](https://github.com/RandomFractals/unfolded-map-snippets/blob/main/README.md#unfolded-javascript-snippets)
 
