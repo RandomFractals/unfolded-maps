@@ -38,6 +38,8 @@ Use [unfolded-data-sdk.ipynb](https://github.com/RandomFractals/unfolded-maps/bl
 
 ## Unfolded Map 🗺️ Code Snippets ⇥
 
+**NOTE**: Unfolded Map JS, Python and Html Code Snippets, and Unfolded Map Renderer for Jupyter and VSCode Notebooks are available in our Pro sponsors-only private repositories. Sign up for our monthly [Pro sponsor tier](https://github.com/sponsors/RandomFractals/sponsorships?sponsor=RandomFractals&tier_id=18884) to get access to those custom Unfolded map dev tools. You will be added as collaborator and can download VSCode extension `.vsix` you can install and use in VSCode IDE.
+
 Use [unfolded-map-snippets](https://github.com/RandomFractals/unfolded-map-snippets) VSCode extension to streamline your [Custom Unfolded](https://docs.unfolded.ai/api) Map 🗺️ creations and [Python 🐍 Data](https://docs.unfolded.ai/data-sdk/api/list-datasets) integrations.
 
 ### [Unfolded JavaScript Code Snippets](https://github.com/RandomFractals/unfolded-map-snippets/blob/main/README.md#unfolded-javascript-snippets)
